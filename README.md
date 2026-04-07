@@ -1,9 +1,9 @@
-# 🧠 Stress Detection using Speech and Face
+#  Stress Detection using Speech and Face
 ### Real-time Emotion & Stress Analysis Web Application
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 stress_detection/
@@ -26,7 +26,7 @@ stress_detection/
 
 ---
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 ### Step 1: Copy your models
 ```
@@ -53,7 +53,7 @@ http://127.0.0.1:5000
 
 ---
 
-## 🌐 Pages & URLs
+##  Pages & URLs
 
 | Page | URL | Description |
 |------|-----|-------------|
@@ -65,19 +65,19 @@ http://127.0.0.1:5000
 
 ---
 
-## 🧮 Stress Calculation Logic
+##  Stress Calculation Logic
 
 **Stress Score = Average of (Angry% + Fear% + Disgust% + Sad%)**
 
 | Score | Level | Color |
 |-------|-------|-------|
-| 0–30% | 😌 Low Stress | Green |
-| 31–60% | 😟 Medium Stress | Orange |
-| 61–100% | 😰 High Stress | Red |
+| 0–30% |  Low Stress | Green |
+| 31–60% |  Medium Stress | Orange |
+| 61–100% |  High Stress | Red |
 
 ---
 
-## 🎭 Emotion Labels
+##  Emotion Labels
 
 **Face Model:**
 Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral
@@ -85,14 +85,8 @@ Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral
 **Speech Model:**
 neutral, calm, happy, sad, angry, fear, disgust, surprise
 
----
 
-## ⚠️ Troubleshooting
 
-- **Camera not working?** → Allow browser camera permissions
-- **Microphone not working?** → Allow browser mic permissions  
-- **Model loading error?** → Make sure both .keras files are in the `models/` folder
-- **Audio analysis error?** → Install `ffmpeg` on your system for audio processing
 
 ```bash
 # Windows (using chocolatey)
